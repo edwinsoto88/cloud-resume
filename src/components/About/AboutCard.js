@@ -31,9 +31,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "A smooth sea never made a skilled sailor."{" "}
           </p>
-          <footer className="blockquote-footer">Soto-Villela</footer>
+          <footer className="blockquote-footer">Franklin D. Roosevelt</footer>
         </blockquote>
       </Card.Body>
     </Card>

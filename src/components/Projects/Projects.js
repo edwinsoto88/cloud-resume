@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
+
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
@@ -26,19 +28,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="UNT Rides"
-              description="Carpooling platform for University of North Texas students. This cost-effective solution connects students heading to the same destination, allowing them to split travel expenses. The platform offers flexibility to post ride requests, schedule trips in advance, and provides an opportunity for drivers to offset expenses. This platform was built using HTML, CSS, Javascript, React, Google API, and Firebase"
+              description="This web application enables UNT students to carpool by connecting riders and drivers traveling to the same destination. Built using React, HTML/CSS, Javascript, Google API, and Firebase, it allows drivers to post trips in advance or spur of the moment while allowing riders flexible options to find and schedule rides that fit their plans. By splitting costs, it provides a cost-effective and eco-friendly transportation alternative. The platform handles trip listings, scheduling, payment processing, notifications and communication for a seamless experience. Developing an end-to-end carpooling app leverages core web development skills including UI creation, database integration, API usage, and modern frameworks like React."
               ghLink="https://github.com/edwinsoto88/capstoneproject"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://edwinsoto88.github.io/capstoneproject/"
             />
           </Col>
 
@@ -46,10 +38,20 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Color Vision"
+              description="The goal of this project is to create a web application to test vision and check if they have color blindness. This will be implemented through a web application where anyone with a link can access the surveys. Overall, this web application will provide people the ability to test for colorblindness and what type of color blindness they are if applicable. It will also allow users to upload a picture and change the color according to their specific color blindness. This project is written in HTML, CSS, JavaScript, Bootstrap, and FireBase for the backend."
+              ghLink="https://github.com/edwinsoto88/color-vision"
+              demoLink="https://edwinsoto88.github.io/color-vision/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Operating Systems"
+              description="These projects dive into core operating systems concepts like process, resource, and file management. Project 1 has you design and implement common CPU scheduling algorithms for process management. This critical task coordinates execution across running processes. Project 2 provides shell builtin practice by rewriting 5 common commands like cd, echo, and cat in Go. You integrate these with a basic existing shell to add functionality. Through hands-on programming of the OS subsystems for processes and shells, these projects deliver vital experience for operating systems developers."
+              ghLink="https://github.com/edwinsoto88/CSCE4600"
             />
           </Col>
 
@@ -57,10 +59,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="C Based Terminal"
+              description="This systems programming project entailed developing a Linux-style bash shell interface in C. Our group built core components like the command interpreter to parse input and launch processes. Individually, we added I/O redirection, piping, signal handling, and aliasing. Building this sophisticated replica shell in C taught OS and systems concepts hands-on, including file/process control, command interpretation, stream management, and signal responses. The customized shell handles navigation, program execution, flexible I/O, and more right within the terminal. Developing key utilities like a shell in C provides vital systems-level experience."
+              ghLink="https://github.com/edwinsoto88/Bash-Terminal"
             />
           </Col>
 
@@ -68,10 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="UNT Eagle Parking Lot System"
+              description="This C++ project simulates a multi-level parking system using object-oriented principles to model different user privileges. It implements classes for 3 user types—regular, employee, and admin—each with distinct abilities based on their access rights. Developing this access-controlled simulation provides practical OOP design experience in C++. It applies core language concepts like inheritance, encapsulation through classes, headers, and access modifiers to restrict actions. Programming the differentiated capabilities demonstrates usable techniques for privilege management within a representative parking scenario."
+              ghLink="https://github.com/edwinsoto88/Eagle-Parking-System"
             />
           </Col>
         </Row>
