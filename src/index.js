@@ -11,7 +11,12 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+const counter = document.querySelector(".conter-number");
+async function updateCounter() {
+  let response = await fetch("https://w6rrcxzhbnqngjynbi3ewkq25a0wtwnt.lambda-url.us-east-1.on.aws/");
+  let data await response.json();
+  counter.innerHTML = ` Views: ${data}`;
+};
+
+
 reportWebVitals();

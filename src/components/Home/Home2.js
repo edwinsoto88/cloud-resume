@@ -1,15 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import axios from "axios";
 
 function Home2() {
+  const [views, setViews] = useState(0);
+
+  useEffect(() => {
+    const fetchViews = async () => {
+      try {
+        // Make an API call to your Lambda function endpoint to fetch views count
+        const response = await axios.get("https://rgvgsa5trw52lybmpt7syamqju0rxuvx.lambda-url.us-east-1.on.aws/");
+        setViews(response.data); // Assuming the response contains the views count
+      } catch (error) {
+        console.error("Error fetching views:", error);
+      }
+    };
+
+    fetchViews();
+  }, []); // Empty dependency array ensures the effect runs only once on component mount
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -83,6 +96,7 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p>Total Views: {views}</p>
           </Col>
         </Row>
       </Container>
