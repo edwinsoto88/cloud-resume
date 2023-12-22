@@ -15,9 +15,18 @@
     <a href="https://github.com/edwinsoto88/cloud-resume/issues">Request Feature</a>
 </h3>
 
-## TL;DR
+## Architecture
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+![AWS (2019) horizontal framework](https://github.com/edwinsoto88/cloud-resume/assets/61428070/a7451a98-cd7a-4d18-be6c-93d224f5442b)
+
+**Services Used**:
+- S3
+- AWS CloudFront
+- Certificate Manager
+- AWS Lambda
+- Dynamo DB
+- GitHub Actions
+- Terraform
 
 ## Built With
 
@@ -27,16 +36,6 @@ This project was built using these technologies.
 - Node.js
 - Express.js
 - CSS3
-- VsCode
-- Vercel
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
 
 ## Getting Started
 
