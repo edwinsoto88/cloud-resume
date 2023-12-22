@@ -5,12 +5,9 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
 </center>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/edwinsoto88/cloud-resume/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/edwinsoto88/cloud-resume/issues">Request Feature</a>
-</h3>
+## Description
+
+This is my attempt at doing the AWS Cloud Resume challenge!
 
 ## Architecture
 
