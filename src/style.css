@@ -741,3 +741,16 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* Certifications section */
+.certification-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.header-section{
+  color: #fff;
+}
