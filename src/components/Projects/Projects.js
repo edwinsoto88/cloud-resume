@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+import cloudResume from "../../Assets/Projects/Cloud-Resume-img.png";
 import untRides from "../../Assets/Projects/UNT-Rides-Img.png";
 import colorVision from "../../Assets/Projects/Color-Vision-img.png";
 import bashImg from "../../Assets/Projects/Bash-Terminal-img.png";
@@ -21,6 +22,16 @@ function Projects() {
           Here are some of the projects I've recently worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cloudResume}
+              isBlog={false}
+              title="Cloud Resume"
+              description="This project showcases my ability to leverage AWS cloud services to host and manage my resume dynamically. It follows the Cloud Resume Challenge principles, integrating a full-stack approach with serverless technologies and infrastructure as code."
+              ghLink="https://github.com/edwinsoto88/cloud-resume"
+              demoLink="https://www.edwinsotovillela.org/project"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={untRides}
