@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.6be3db5c.css",
-    "main.js": "/static/js/main.6599d429.js",
+    "main.js": "/static/js/main.b5766e07.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Color-Vision-img.png": "/static/media/Color-Vision-img.2a6e9a5ed3ee5cea7845.png",
     "static/media/UNT-parking-simulator-img.png": "/static/media/UNT-parking-simulator-img.c5ee72761f58da3b24fc.png",
     "static/media/Bash-Terminal-img.png": "/static/media/Bash-Terminal-img.a82be38411e28382b974.png",
+    "static/media/Cloud-Resume-img.png": "/static/media/Cloud-Resume-img.2d20edc522061e538026.png",
     "static/media/Edwin_Soto_Villela.pdf": "/static/media/Edwin_Soto_Villela.49c9009dde45ef459318.pdf",
     "static/media/UNT-Rides-Img.png": "/static/media/UNT-Rides-Img.fba2dcf9e2ed98fc1556.png",
     "static/media/ES-logo.png": "/static/media/ES-logo.9dd6fc91335dbfa8ea38.png",
@@ -18,12 +19,12 @@
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.6be3db5c.css.map": "/static/css/main.6be3db5c.css.map",
-    "main.6599d429.js.map": "/static/js/main.6599d429.js.map",
+    "main.b5766e07.js.map": "/static/js/main.b5766e07.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6be3db5c.css",
-    "static/js/main.6599d429.js"
+    "static/js/main.b5766e07.js"
   ]
 }
